@@ -1,0 +1,9 @@
+{
+	"test":{
+			"appUrl": "http://daft.ie"
+		},
+		
+	"dev":{
+			"appUrl": "http://daft.ie"
+		}
+}
