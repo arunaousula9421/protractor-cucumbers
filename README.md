@@ -21,25 +21,28 @@ After installing node.js, Node Package Manager (npm) will also be installed. ple
 # Getting started
 
 After cloning this project into your system folder, use below steps:
+1) Install Protrctor 
 
-1) Install protractor, cucumber and dependencies
+                npm install -g protractor
+
+2) Install protractor, cucumber and dependencies
 	
 		npm install
 
-2) Update WebDriver-Manager to get latest binaries
+3) Update WebDriver-Manager to get latest binaries
 
 		node_modules/protractor/bin/webdriver-manager update
 	 
-3) Launch test directly with protractor
+4) Launch test directly with protractor
    	
 		grunt protractor:test
 	 
-4) Set directConnect to false in conf.js, start webdriver-manager in another terminal and launch tests using grunt
+5) Set directConnect to false in conf.js, start webdriver-manager in another terminal and launch tests using grunt
 	
 		node_modules/protractor/bin/webdriver-manager start
 		grunt protractor:test
 	
-5) To run tests without grunt, uncomment below lines from conf.js:
+6) To run tests without grunt, uncomment below lines from conf.js:
 
    /*	// configuration parameters
 	params: {
