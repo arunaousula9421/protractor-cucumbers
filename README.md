@@ -58,3 +58,4 @@ Note: Windows users, use node at start of command to update/start webdriver-mana
 
 	node node_modules/protractor/bin/webdriver-manager update
 	node node_modules/protractor/bin/webdriver-manager start
+	node node_modules/grunt/bin/grunt protractor:test
