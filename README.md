@@ -21,9 +21,10 @@ After installing node.js, Node Package Manager (npm) will also be installed. ple
 # Getting started
 
 After cloning this project into your system folder, use below steps:
-1) Install Protrctor 
+1) Install Protrctor and Grunt
 
                 npm install -g protractor
+		npm install grunt -g
 
 2) Install protractor, cucumber and dependencies
 	
