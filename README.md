@@ -36,7 +36,7 @@ After cloning this project into your system folder, use below steps:
 	 
 4) Launch test directly with protractor
    	
-		grunt protractor:test
+		node_modules/grunt/bin/grunt protractor:test
 	 
 5) Set directConnect to false in conf.js, start webdriver-manager in another terminal and launch tests using grunt
 	
